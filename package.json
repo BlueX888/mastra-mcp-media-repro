@@ -1,0 +1,11 @@
+{
+  "name": "mastra-mcp-media-repro",
+  "private": true,
+  "description": "Minimal repro: MCP image tool results reach the AI SDK v5 model prompt as spec-v3 image-data instead of a media part",
+  "scripts": {
+    "repro": "node repro.js"
+  },
+  "dependencies": {
+    "@mastra/core": "1.75.0"
+  }
+}
